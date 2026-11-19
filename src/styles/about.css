@@ -1,0 +1,644 @@
+.about-section {
+  position: relative;
+  isolation: isolate;
+  width: calc(100vw - 56px);
+  margin: 0 0 0 calc((100% - 100vw) / 2 + 28px);
+  padding: 38px 0 64px;
+  overflow: hidden;
+  background: var(--home-page-background);
+}
+
+.about-container {
+  position: relative;
+  z-index: 1;
+  width: min(100% - 96px, 1450px);
+  margin: 0 auto;
+}
+
+.about-heading {
+  margin: 0 0 24px;
+  text-align: left;
+}
+
+.about-kicker {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 12px;
+  color: #d260ff;
+  font-size: clamp(14px, 1.25vw, 17px);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-shadow: 0 0 12px rgba(178, 53, 255, 0.3);
+}
+
+.about-kicker span {
+  width: 35px;
+  height: 2px;
+  background: linear-gradient(90deg, #a54bff, #ed39e8);
+  box-shadow: 0 0 9px rgba(183, 68, 255, 0.72);
+}
+
+.about-heading h2 {
+  max-width: 1050px;
+  margin: 0;
+  color: #f9f8ff;
+  font-size: clamp(38px, 5vw, 68px);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 1.08;
+  text-shadow: 0 2px 18px rgba(199, 186, 255, 0.12);
+}
+
+.about-heading h2 span {
+  background: linear-gradient(90deg, #ba4dff 0%, #ff8a00 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-hero-values {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin-top: 20px;
+}
+
+.about-hero-value {
+  display: inline-flex;
+  min-height: 34px;
+  align-items: center;
+  gap: 10px;
+  padding: 0 20px;
+  border-right: 1px solid rgba(164, 111, 226, 0.48);
+  color: #f2effa;
+  font-size: 15px;
+}
+
+.about-hero-value:first-child {
+  padding-left: 0;
+}
+
+.about-hero-value:last-child {
+  border-right: 0;
+}
+
+.about-hero-value .about-icon {
+  width: 27px;
+  height: 27px;
+}
+
+.about-story-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: stretch;
+  gap: 24px;
+  margin: 0 0 44px;
+}
+
+.about-card {
+  --about-accent-rgb: 179, 83, 255;
+  --about-delay: 0ms;
+  position: relative;
+  min-width: 0;
+  border: 1px solid rgba(var(--about-accent-rgb), 0.66);
+  background:
+    radial-gradient(ellipse at 50% 0, rgba(var(--about-accent-rgb), 0.18), transparent 62%),
+    linear-gradient(150deg, rgba(43, 18, 83, 0.88), rgba(15, 9, 43, 0.95));
+  box-shadow: 0 0 13px rgba(var(--about-accent-rgb), 0.2), inset 0 0 22px rgba(var(--about-accent-rgb), 0.055);
+  transition: transform 280ms ease, border-color 280ms ease, box-shadow 280ms ease, background 280ms ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(var(--about-accent-rgb), 0.96);
+  background:
+    radial-gradient(ellipse at 50% 0, rgba(var(--about-accent-rgb), 0.27), transparent 64%),
+    linear-gradient(150deg, rgba(55, 22, 104, 0.94), rgba(18, 10, 48, 0.98));
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25), 0 0 20px rgba(var(--about-accent-rgb), 0.34), inset 0 0 22px rgba(var(--about-accent-rgb), 0.07);
+}
+
+.about-card.about-reveal.is-visible:hover {
+  transform: translateY(-5px);
+}
+
+.about-story-card {
+  display: flex;
+  min-height: 190px;
+  align-items: center;
+  gap: 17px;
+  padding: 24px 28px 24px 104px;
+  border-radius: 24px;
+}
+
+.about-story-card--1 {
+  z-index: 1;
+  margin: 0;
+  --about-accent-rgb: 179, 83, 255;
+}
+
+.about-story-card--2 {
+  z-index: 2;
+  margin: 0;
+  --about-accent-rgb: 255, 154, 22;
+}
+
+.about-story-card .about-icon-tile {
+  position: absolute;
+  top: 50%;
+  left: 21px;
+  width: 68px;
+  height: 68px;
+  transform: translateY(-50%);
+  clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+}
+
+.about-story-card:hover .about-icon {
+  transform: scale(1.07);
+}
+
+.about-story-card h3,
+.about-principle-card h3,
+.about-philosophy-card h3 {
+  margin: 0 0 8px;
+  color: #f8f6ff;
+  font-size: clamp(18px, 1.65vw, 23px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.about-card p {
+  margin: 0;
+  color: #e0ddf3;
+  font-size: clamp(13px, 1.05vw, 15px);
+  line-height: 1.48;
+}
+
+.about-lower-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(330px, 0.94fr);
+  align-items: end;
+  gap: clamp(28px, 4vw, 62px);
+}
+
+.about-principles-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: end;
+  gap: 14px;
+  padding: 35px 9px 22px;
+}
+
+.about-principles-grid::before {
+  position: absolute;
+  right: -1%;
+  bottom: 11px;
+  left: -1%;
+  z-index: 0;
+  height: 13px;
+  border: 1px solid rgba(194, 89, 255, 0.72);
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgba(146, 55, 255, 0.66), rgba(255, 143, 18, 0.72), rgba(146, 55, 255, 0.66));
+  box-shadow: 0 0 10px rgba(164, 62, 255, 0.65), 0 8px 20px rgba(119, 39, 255, 0.22);
+  content: "";
+}
+
+.about-principle-card {
+  display: flex;
+  height: 296px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 55px 18px 17px;
+  border-radius: 110px 110px 20px 20px;
+  text-align: center;
+  z-index: 1;
+}
+
+.about-principle-card:nth-child(1) {
+  --about-accent-rgb: 179, 83, 255;
+  background:
+    radial-gradient(ellipse at 50% 0, rgba(179, 83, 255, 0.22), transparent 58%),
+    linear-gradient(180deg, rgba(54, 23, 100, 0.82), rgba(18, 10, 49, 0.96));
+}
+
+.about-principle-card:nth-child(2) {
+  --about-accent-rgb: 255, 154, 22;
+  border-color: rgba(255, 154, 22, 0.82);
+  background:
+    radial-gradient(ellipse at 50% 0, rgba(255, 154, 22, 0.18), transparent 58%),
+    linear-gradient(180deg, rgba(76, 35, 45, 0.8), rgba(23, 11, 42, 0.96));
+  box-shadow: 0 0 16px rgba(255, 154, 22, 0.25), inset 0 0 22px rgba(255, 154, 22, 0.07);
+}
+
+.about-principle-card:nth-child(3) {
+  --about-accent-rgb: 179, 83, 255;
+  background:
+    radial-gradient(ellipse at 50% 0, rgba(139, 53, 255, 0.2), transparent 58%),
+    linear-gradient(180deg, rgba(46, 22, 92, 0.84), rgba(16, 10, 47, 0.96));
+}
+
+.about-principle-card .about-icon-tile {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  width: 76px;
+  height: 76px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 25%, rgba(var(--about-accent-rgb), 0.38), rgba(20, 10, 51, 0.94) 70%);
+  box-shadow: 0 0 17px rgba(var(--about-accent-rgb), 0.48), inset 0 0 14px rgba(var(--about-accent-rgb), 0.13);
+}
+
+.about-principle-card h3 {
+  margin: 2px 0 10px;
+  font-size: clamp(17px, 1.45vw, 21px);
+}
+
+.about-principle-card p {
+  font-size: clamp(14px, 1.05vw, 15px);
+  line-height: 1.55;
+}
+
+.about-philosophy {
+  min-width: 0;
+}
+
+.about-philosophy__title {
+  margin: 0 0 18px;
+  color: #f8f6ff;
+  font-size: clamp(26px, 2.45vw, 34px);
+  font-weight: 800;
+  letter-spacing: -0.035em;
+}
+
+.about-philosophy__title span {
+  background: linear-gradient(90deg, #ba4dff, #ff8a00);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-philosophy-grid {
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(3, 130px);
+  gap: 15px;
+  padding: 0 0 0 42px;
+}
+
+.about-philosophy__path {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 39px;
+  width: 52px;
+  height: 100%;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.about-philosophy__path path {
+  fill: none;
+  stroke: rgba(195, 79, 255, 0.88);
+  stroke-width: 2.5;
+  filter: drop-shadow(0 0 5px rgba(195, 79, 255, 0.8));
+}
+
+.about-philosophy__path circle {
+  fill: #e33dff;
+  stroke: #fff;
+  stroke-width: 1.5;
+  filter: drop-shadow(0 0 5px rgba(210, 57, 255, 0.9));
+}
+
+.about-philosophy-card {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  height: 130px;
+  grid-template-columns: 67px minmax(0, 1fr);
+  align-items: center;
+  gap: 14px;
+  padding: 13px 15px 13px 0;
+  border-radius: 26px;
+}
+
+.about-philosophy-card--2 {
+  --about-accent-rgb: 255, 154, 22;
+}
+
+.about-philosophy-card--3 {
+  --about-accent-rgb: 179, 83, 255;
+}
+
+.about-philosophy-card .about-icon-tile {
+  width: 67px;
+  height: 67px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 25%, rgba(var(--about-accent-rgb), 0.32), rgba(19, 9, 48, 0.96) 74%);
+  box-shadow: 0 0 15px rgba(var(--about-accent-rgb), 0.42), inset 0 0 12px rgba(var(--about-accent-rgb), 0.12);
+}
+
+.about-philosophy-card h3 {
+  margin: 0 0 4px;
+  font-size: clamp(16px, 1.4vw, 20px);
+  font-style: normal;
+}
+
+.about-philosophy-card p {
+  font-size: clamp(12px, 0.92vw, 14px);
+  line-height: 1.4;
+}
+
+.about-icon-tile {
+  display: grid;
+  flex: 0 0 auto;
+  border: 1px solid rgba(var(--about-accent-rgb, 179, 83, 255), 0.7);
+  background: linear-gradient(145deg, rgba(var(--about-accent-rgb, 179, 83, 255), 0.25), rgba(30, 14, 65, 0.72));
+  box-shadow: inset 0 0 14px rgba(var(--about-accent-rgb, 179, 83, 255), 0.12);
+  place-items: center;
+  transition: box-shadow 250ms ease, filter 250ms ease;
+}
+
+.about-icon {
+  position: relative;
+  display: block;
+  width: 42px;
+  height: 42px;
+  overflow: hidden;
+  transition: transform 250ms ease, filter 250ms ease;
+}
+
+.about-icon img {
+  position: absolute;
+  top: 50%;
+  left: calc(var(--about-icon-index, 0) * -100%);
+  display: block;
+  width: 800%;
+  max-width: none;
+  height: auto;
+  transform: translateY(-50%);
+  filter: hue-rotate(100deg) saturate(1.25);
+}
+
+.about-story-card--2 .about-icon img,
+.about-principle-card--2 .about-icon img,
+.about-philosophy-card--2 .about-icon img {
+  filter: hue-rotate(210deg) saturate(1.18);
+}
+
+.about-card:hover .about-icon-tile {
+  filter: drop-shadow(0 0 8px rgba(var(--about-accent-rgb), 0.45));
+}
+
+.about-philosophy-card--1 {
+  --about-accent-rgb: 179, 83, 255;
+}
+
+.about-philosophy-card--2 {
+  --about-accent-rgb: 255, 154, 22;
+}
+
+.about-philosophy-card--3 {
+  --about-accent-rgb: 179, 83, 255;
+}
+
+.about-reveal {
+  opacity: 0;
+  transform: translateY(15px);
+  transition: opacity 620ms ease, transform 620ms cubic-bezier(0.2, 0.7, 0.2, 1);
+  transition-delay: var(--about-delay, 0ms);
+}
+
+.about-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+:root[data-theme="light"] .about-section {
+  background: #f3efff;
+}
+
+:root:not([data-theme="light"]) .about-section {
+  background: var(--page-bg);
+}
+
+:root[data-theme="light"] .about-heading h2,
+:root[data-theme="light"] .about-card h3,
+:root[data-theme="light"] .about-philosophy__title {
+  color: #171333;
+}
+
+:root[data-theme="light"] .about-hero-value,
+:root[data-theme="light"] .about-card p {
+  color: #40395d;
+}
+
+:root[data-theme="light"] .about-card {
+  background:
+    radial-gradient(ellipse at 50% 0, rgba(var(--about-accent-rgb), 0.1), transparent 60%),
+    rgba(255, 255, 255, 0.88);
+  box-shadow: 0 8px 22px rgba(38, 21, 77, 0.08);
+}
+
+@media (max-width: 1050px) {
+  .about-container {
+    width: calc(100% - 64px);
+  }
+
+  .about-lower-layout {
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+    gap: 39px;
+  }
+
+  .about-principles-grid {
+    max-width: 840px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .about-philosophy {
+    width: min(100%, 700px);
+    margin: 0 auto;
+  }
+
+  .about-philosophy-grid {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 680px) {
+  .about-section {
+    width: calc(100vw - 24px);
+    margin-left: calc((100% - 100vw) / 2 + 12px);
+    padding: 34px 0 54px;
+  }
+
+  .about-container {
+    width: calc(100% - 28px);
+  }
+
+  .about-heading {
+    margin-bottom: 25px;
+  }
+
+  .about-kicker {
+    gap: 9px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .about-heading h2 {
+    font-size: clamp(30px, 8vw, 42px);
+    line-height: 1.1;
+  }
+
+  .about-hero-values {
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+
+  .about-hero-value {
+    gap: 6px;
+    padding: 0 8px;
+    font-size: 11px;
+  }
+
+  .about-hero-value .about-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .about-story-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 13px;
+    margin: 0 0 45px;
+    padding-left: 10px;
+  }
+
+  .about-story-card,
+  .about-story-card--1,
+  .about-story-card--2 {
+    min-height: 0;
+    margin: 0;
+    padding: 20px 16px 20px 70px;
+    border-radius: 19px;
+  }
+
+  .about-story-card--2 {
+    margin-left: 0;
+  }
+
+  .about-story-card .about-icon-tile {
+    top: 50%;
+    left: 8px;
+    width: 50px;
+    height: 50px;
+    transform: translateY(-50%);
+  }
+
+  .about-story-card h3,
+  .about-principle-card h3 {
+    font-size: 17px;
+  }
+
+  .about-story-card p,
+  .about-principle-card p {
+    font-size: 12px;
+    line-height: 1.45;
+  }
+
+  .about-lower-layout {
+    gap: 34px;
+  }
+
+  .about-principles-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 34px;
+    max-width: 360px;
+    padding: 35px 10px 25px;
+  }
+
+  .about-principles-grid::before {
+    right: 3%;
+    left: 3%;
+    bottom: 9px;
+  }
+
+  .about-principle-card,
+  .about-principle-card:nth-child(2) {
+    height: auto;
+    min-height: 0;
+    padding: 55px 24px 26px;
+    border-radius: 100px 100px 20px 20px;
+  }
+
+  .about-principle-card .about-icon-tile {
+    top: -27px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .about-principle-card h3 {
+    margin-top: 0;
+  }
+
+  .about-philosophy__title {
+    margin-bottom: 17px;
+    font-size: 28px;
+  }
+
+  .about-philosophy-grid {
+    gap: 12px;
+    padding-left: 24px;
+  }
+
+  .about-philosophy__path {
+    left: 29px;
+    width: 43px;
+  }
+
+  .about-philosophy-card,
+  .about-philosophy-card--2,
+  .about-philosophy-card--3 {
+    min-height: 93px;
+    height: auto;
+    grid-template-columns: 56px minmax(0, 1fr);
+    gap: 10px;
+    margin-left: 0;
+    padding: 11px 10px 11px 0;
+    border-radius: 20px;
+  }
+
+  .about-philosophy-grid {
+    grid-template-rows: none;
+  }
+
+  .about-philosophy-card .about-icon-tile {
+    width: 56px;
+    height: 56px;
+  }
+
+  .about-philosophy-card h3 {
+    font-size: 16px;
+  }
+
+  .about-philosophy-card p {
+    font-size: 11px;
+    line-height: 1.38;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-card,
+  .about-icon,
+  .about-icon-tile,
+  .about-reveal {
+    transition: none !important;
+  }
+}

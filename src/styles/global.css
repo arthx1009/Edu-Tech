@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+:root {
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  color: #fff;
+  background: #0c0728;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --page-bg: #0c0728;
+  --header-bg: #0c0728;
+  --text-primary: #fff;
+  --text-secondary: #e0ddf3;
+  --panel-bg: rgba(12, 13, 53, 0.67);
+  --panel-line: rgba(174, 76, 255, 0.72);
+  --divider: rgba(139, 91, 255, 0.48);
+  --accent-purple: #8b35ff;
+  --accent-pink: #ff287d;
+  --accent-orange: #ff8a00;
+  --home-page-background: #0c0728;
+}
+
+:root[data-theme="light"] {
+  --home-page-background:
+    radial-gradient(ellipse at 30% 56%, rgba(33, 75, 255, 0.19), transparent 30%),
+    radial-gradient(ellipse at 75% 47%, rgba(152, 40, 255, 0.23), transparent 32%),
+    radial-gradient(ellipse at 83% 36%, rgba(73, 21, 183, 0.47) 0, transparent 33%),
+    radial-gradient(ellipse at 52% 85%, rgba(42, 16, 133, 0.58) 0, transparent 34%),
+    linear-gradient(115deg, #080821 4%, #090a2d 51%, #100837 100%);
+  color-scheme: light;
+  --page-bg: #f3efff;
+  --header-bg: rgba(244, 240, 255, 0.94);
+  --text-primary: #171333;
+  --text-secondary: #40395d;
+  --panel-bg: rgba(255, 255, 255, 0.78);
+  --panel-line: rgba(129, 58, 223, 0.58);
+  --divider: rgba(97, 63, 168, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 0;
+  overflow-x: clip;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: clip;
+  color: var(--text-primary);
+  background: var(--page-bg);
+}
+
+#root {
+  min-height: 100vh;
+  zoom: 0.9;
+}
+
+body,
+button,
+input {
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  color: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid #ff9a32;
+  outline-offset: 4px;
+}
+
+::selection {
+  color: #fff;
+  background: #8b35ff;
+}
