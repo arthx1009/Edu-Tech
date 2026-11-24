@@ -4,6 +4,7 @@ import camera from "../assets/images/domains/camera.png";
 import rocket from "../assets/images/domains/rocket.png";
 import healthcare from "../assets/images/domains/healthcare.png";
 import career from "../assets/images/domains/career-chart.png";
+import neet from "../assets/images/domains/neet-medical.png";
 
 export type Domain = {
   id: string;
@@ -97,6 +98,28 @@ export const domains: Domain[] = [
       "Product Management",
       "Business Development",
       "Professional Skills",
+    ],
+  },
+  {
+    id: "neet",
+    title: "NEET – Medical Entrance Exam Preparation",
+    description:
+      "Prepare for the NEET examination with structured learning, science concepts, practice tests and expert-guided preparation.",
+    image: neet,
+    imageAlt: "NEET medical entrance preparation with stethoscope, shield and study books",
+    areas: [
+      "Physics",
+      "Chemistry",
+      "Biology",
+      "Botany",
+      "Zoology",
+      "Human Physiology",
+      "Genetics",
+      "Ecology",
+      "Organic Chemistry",
+      "Inorganic Chemistry",
+      "Physical Chemistry",
+      "NEET Mock Tests",
     ],
   },
 ];

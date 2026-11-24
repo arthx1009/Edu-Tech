@@ -5,7 +5,7 @@ const leaders = [
   { name: "DEVI SREE NB", designation: "Chief Executive Officer" },
   {
     name: "SAFA SALSABEEL Z",
-    designation: "Founder & Managing Director",
+    designation: "Managing Director",
   },
 ];
 

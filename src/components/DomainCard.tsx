@@ -9,7 +9,7 @@ type DomainCardProps = {
 export default function DomainCard({ domain, index, onSelect }: DomainCardProps) {
   return (
     <button
-      className="domain-card domains-reveal"
+      className={`domain-card domains-reveal${domain.id === "neet" ? " domain-card--neet" : ""}`}
       id={`domain-${domain.id}`}
       type="button"
       style={{ "--domain-delay": `${index * 70}ms` } as React.CSSProperties}

@@ -151,6 +151,44 @@
   line-height: 1.45;
 }
 
+.domain-card--neet {
+  grid-column: 1 / -1;
+  min-height: 220px;
+  flex-direction: row;
+  align-items: center;
+  gap: 28px;
+  padding: 18px 72px 18px 18px;
+}
+
+.domain-card--neet .domain-card__art {
+  width: 280px;
+  height: 178px;
+  flex: 0 0 280px;
+  margin: 0;
+}
+
+.domain-card--neet .domain-card__title {
+  max-width: 580px;
+  margin: 0 0 8px;
+  font-size: clamp(20px, 2vw, 27px);
+}
+
+.domain-card--neet .domain-card__description {
+  max-width: 650px;
+  font-size: clamp(13px, 1.1vw, 15px);
+}
+
+.domain-card--neet .domain-card__arrow {
+  right: 22px;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+.domain-card--neet:hover .domain-card__arrow,
+.domain-card--neet:focus-visible .domain-card__arrow {
+  transform: translateY(50%) translateX(3px);
+}
+
 .domain-card__arrow {
   position: absolute;
   right: 15px;
@@ -439,6 +477,12 @@
   font-size: 12px;
 }
 
+.domain-detail__area {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
 @media (max-width: 850px) {
   .domains-container {
     width: calc(100% - 56px);
@@ -464,6 +508,11 @@
   .domain-kyro-banner__copy {
     max-width: 65%;
   }
+
+  .domain-card--neet {
+    grid-column: 1 / -1;
+  }
+
 }
 
 @media (max-width: 580px) {
@@ -513,6 +562,42 @@
     padding-bottom: 7px;
     font-size: 13px;
   }
+
+  .domain-card--neet {
+    grid-column: auto;
+    min-height: 250px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 12px 15px 16px;
+  }
+
+  .domain-card--neet .domain-card__art {
+    width: 100%;
+    height: 145px;
+    flex-basis: 145px;
+  }
+
+  .domain-card--neet .domain-card__title {
+    max-width: calc(100% - 38px);
+    font-size: 18px;
+  }
+
+  .domain-card--neet .domain-card__description {
+    max-width: calc(100% - 16px);
+  }
+
+  .domain-card--neet .domain-card__arrow {
+    right: 15px;
+    bottom: 15px;
+    transform: none;
+  }
+
+  .domain-card--neet:hover .domain-card__arrow,
+  .domain-card--neet:focus-visible .domain-card__arrow {
+    transform: translateX(3px);
+  }
+
 
   .young-minds-link {
     margin-top: 15px;

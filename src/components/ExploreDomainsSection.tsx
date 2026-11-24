@@ -63,7 +63,7 @@ export default function ExploreDomainsSection() {
           <p>Diverse fields, real-world learning, and future-ready skills — all in one place.</p>
         </header>
 
-        <div className="domains-grid" aria-label="Explore six learning domains">
+        <div className="domains-grid" aria-label="Explore learning domains">
           {domains.map((domain, index) => (
             <DomainCard
               key={domain.id}
@@ -128,9 +128,27 @@ export default function ExploreDomainsSection() {
             <p>{selectedDomain.description}</p>
             <h3>Explore areas</h3>
             <ul>
-              {selectedDomain.areas.map((area) => <li key={area}>{area}</li>)}
+              {selectedDomain.areas.map((area) => (
+                <li key={area}>
+                  {selectedDomain.id === "neet" ? (
+                    <a
+                      className="domain-detail__area"
+                      href="#learning-pathways-section"
+                      onClick={closeDialog}
+                    >
+                      {area}
+                    </a>
+                  ) : (
+                    area
+                  )}
+                </li>
+              ))}
             </ul>
-            <a className="domain-button domain-button--primary" href="#learning-pathways-section" onClick={closeDialog}>
+            <a
+              className="domain-button domain-button--primary"
+              href="#learning-pathways-section"
+              onClick={closeDialog}
+            >
               Explore Pathways <span aria-hidden="true">→</span>
             </a>
           </div>
