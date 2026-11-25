@@ -361,7 +361,7 @@
 
 .kids-course-card--illustrated {
   min-height: 220px;
-  padding-right: 40%;
+  padding-right: 46%;
 }
 
 .kids-course-card--illustrated .kids-course-card__body,
@@ -376,8 +376,8 @@
   z-index: 1;
   top: 50%;
   right: 8px;
-  width: 36%;
-  height: 88%;
+  width: 44%;
+  height: 92%;
   object-fit: contain;
   object-position: center;
   filter: drop-shadow(0 0 13px rgba(139, 53, 255, 0.42));
@@ -664,6 +664,7 @@
 
   .kids-category-filters button {
     flex: 0 0 auto;
+    min-height: 44px;
   }
 
   .kids-course-search {
@@ -691,13 +692,30 @@
 
   .kids-course-card--illustrated {
     min-height: 230px;
-    padding-right: 40%;
+    padding-right: 45%;
   }
 
   .kids-course-card__illustration {
     right: 7px;
-    width: 36%;
+    width: 39%;
     height: 85%;
+  }
+
+  .kids-course-card__actions a {
+    min-height: 44px;
+  }
+
+  .kids-course-card--illustrated .kids-course-card__actions a {
+    width: 100%;
+  }
+
+  .kids-pagination button {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .kids-catalogue-hero__mascot {
+    display: none;
   }
 }
 
