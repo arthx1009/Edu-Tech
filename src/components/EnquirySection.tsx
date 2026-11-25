@@ -5,7 +5,7 @@ import contactIcon from "../assets/images/enquiry/step-contact.png";
 import pathwayIcon from "../assets/images/enquiry/step-pathway.png";
 
 type FormNotice = {
-  type: "error" | "unavailable";
+  type: "error";
   message: string;
 };
 
@@ -40,10 +40,27 @@ export default function EnquirySection() {
       return;
     }
 
-    setNotice({
-      type: "unavailable",
-      message: "The enquiry form is not connected to a submission service yet. Your details have not been sent.",
-    });
+    const formData = new FormData(form);
+    const fields: Array<[string, string]> = [
+      ["Learner name", String(formData.get("learnerName") ?? "")],
+      ["Contact number", String(formData.get("contactNumber") ?? "")],
+      ["Email address", String(formData.get("email") ?? "")],
+      ["Parent / guardian name and contact", String(formData.get("guardianContact") ?? "")],
+      ["School / university / organisation", String(formData.get("organisation") ?? "")],
+      ["Current class / stage", String(formData.get("stage") ?? "")],
+      ["Area of interest", String(formData.get("interest") ?? "")],
+      ["Preferred learning pathway", String(formData.get("pathway") ?? "")],
+      ["Preferred mode", String(formData.get("mode") ?? "")],
+      ["Learner under 18", isMinor ? "Yes" : "No"],
+      ["Message", String(formData.get("message") ?? "")],
+    ];
+    const body = fields
+      .filter(([, value]) => value.trim())
+      .map(([label, value]) => `${label}: ${value}`)
+      .join("\n");
+    const subject = encodeURIComponent("New Tarvyx Edu-Tech Enquiry");
+
+    window.location.href = `mailto:hello.tarvyxedutech@tarvyxmindsystems.com?subject=${subject}&body=${encodeURIComponent(body)}`;
   }
 
   return (
@@ -236,14 +253,15 @@ export default function EnquirySection() {
                     <path d="M11 9.5c-.5-.8-1-.8-1.5-.8-.4 0-.8 0-1.1.5-.4.4-1.5 1.4-1.5 3.5s1.5 4.1 1.7 4.4c.2.3 2.9 4.7 7.1 6.4 3.5 1.4 4.2 1.1 5 .9.8-.1 2.6-1.1 3-2.1.4-1.1.4-1.9.3-2.1-.1-.2-.4-.4-.9-.6l-3.1-1.5c-.4-.2-.8-.3-1.1.3-.3.5-1.2 1.5-1.4 1.8-.3.3-.5.4-1 .1s-2-.7-3.8-2.3c-1.4-1.2-2.3-2.7-2.6-3.2-.3-.5 0-.7.2-1 .2-.2.5-.6.7-.8.2-.3.3-.5.5-.8.2-.3.1-.6 0-.8-.1-.2-1.1-2.8-1.6-3.8Z" />
                   </svg>
                 </span>
-                <p>Call or message us on WhatsApp (available during working hours).</p>
+                <p>Message us on WhatsApp (available during working hours).</p>
               </div>
-              <button className="enquiry-whatsapp" type="button" disabled aria-describedby="whatsapp-unavailable">
+              <a
+                className="enquiry-whatsapp"
+                href="https://wa.me/919391777916"
+                aria-label="Chat with us on WhatsApp"
+              >
                 Chat on WhatsApp <span aria-hidden="true">→</span>
-              </button>
-              <p className="enquiry-aside__note" id="whatsapp-unavailable">
-                WhatsApp contact details are not configured yet.
-              </p>
+              </a>
             </section>
 
             <section className="enquiry-next enquiry-glass-card" aria-labelledby="enquiry-next-title">

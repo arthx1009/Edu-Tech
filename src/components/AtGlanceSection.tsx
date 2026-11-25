@@ -32,8 +32,8 @@ const items: GlanceItem[] = [
   },
   {
     id: "location",
-    title: "Pan India",
-    description: "Open to learners across the country.",
+    title: "Pan World",
+    description: "Open to learners across the world.",
     icon: "location",
   },
   {
@@ -89,8 +89,8 @@ function GlanceIcon({ name }: { name: GlanceItem["icon"] }) {
     case "location":
       return (
         <svg {...commonProps}>
-          <path d="m25 4-5 6-5 1-3 6 4 3-1 6 4 2 1 7 5 5 3-8-2-5 5-2 4-6-2-5-5-1-3-5Z" />
-          <path d="m33 9 4 2-1 4 5 2-2 5-5 1-2 6" />
+          <circle cx="24" cy="24" r="19" />
+          <path d="M5 24h38M24 5c5 5 7 12 7 19s-2 14-7 19c-5-5-7-12-7-19s2-14 7-19Z" />
         </svg>
       );
     case "kyro":

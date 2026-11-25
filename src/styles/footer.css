@@ -84,7 +84,19 @@
 .footer-cta__careers {
   background: linear-gradient(105deg, #ff9a00, #ff692e 48%, #ec008c);
   box-shadow: 0 0 20px rgba(255, 84, 36, 0.2);
-  cursor: default;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.footer-cta__careers:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 22px rgba(255, 84, 36, 0.32);
+}
+
+.footer-cta__careers:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
 }
 
 .footer-cta__careers span {
@@ -176,6 +188,18 @@
   border-radius: 15px;
   background: rgba(36, 16, 75, 0.54);
   color: #f7f2ff;
+  transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
+}
+
+.footer-social:hover {
+  transform: translateY(-2px);
+  border-color: rgba(191, 116, 255, 0.8);
+  background: rgba(76, 35, 126, 0.72);
+}
+
+.footer-social:focus-visible {
+  outline: 2px solid #dcb4ff;
+  outline-offset: 3px;
 }
 
 .footer-social svg {
@@ -262,7 +286,7 @@
 .footer-bottom {
   display: flex;
   min-height: 68px;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 22px;
   padding-top: 21px;
@@ -277,38 +301,30 @@
 }
 
 .footer-bottom__details {
-  display: flex;
-  align-items: center;
-  gap: 27px;
+  display: grid;
+  justify-items: end;
+  gap: 8px;
+  margin-left: auto;
   color: #ccc5df;
-  font-size: 15px;
-  white-space: nowrap;
+  font-size: 13px;
 }
 
 .footer-location {
-  display: inline-flex;
-  align-items: center;
+  display: flex;
+  max-width: min(100%, 390px);
+  align-items: flex-start;
   gap: 9px;
+  margin: 0;
   color: #f0ecf7;
+  font-size: 13px;
+  font-style: normal;
+  line-height: 1.5;
+  text-align: right;
 }
 
-.footer-location svg {
-  width: 19px;
-  height: 19px;
-  fill: currentColor;
-  stroke: currentColor;
-  stroke-width: 1.7;
-}
-
-.footer-location svg circle {
-  fill: #0c0729;
-  stroke: #0c0729;
-}
-
-.footer-bottom__divider {
-  width: 1px;
-  height: 26px;
-  background: rgba(170, 127, 219, 0.6);
+.footer-location > span {
+  display: grid;
+  gap: 2px;
 }
 
 @media (max-width: 1100px) {
@@ -453,14 +469,11 @@
   }
 
   .footer-bottom__details {
-    flex-wrap: wrap;
-    gap: 12px;
+    width: 100%;
+    gap: 8px;
     white-space: normal;
   }
 
-  .footer-bottom__divider {
-    height: 19px;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
