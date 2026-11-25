@@ -1,5 +1,6 @@
 import { useState, type PointerEvent } from "react";
 import type { Pathway } from "../data/pathways";
+import { brochureRoutes } from "../data/brochureRoutes";
 import PathwayIcon from "./PathwayIcon";
 
 type PathwayCardProps = {
@@ -46,7 +47,14 @@ export default function PathwayCard({
       onPointerMove={handlePointerMove}
       onPointerLeave={resetPointer}
       onBlur={resetPointer}
-      onClick={() => onSelect(pathway.id)}
+      onClick={() => {
+        const brochureRoute = brochureRoutes[pathway.id];
+        if (brochureRoute) {
+          window.location.assign(brochureRoute);
+          return;
+        }
+        onSelect(pathway.id);
+      }}
     >
       <PathwayIcon index={pathway.icon} />
       <span className="pathway-card__title">{pathway.title}</span>

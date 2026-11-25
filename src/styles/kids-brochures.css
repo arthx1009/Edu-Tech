@@ -1,0 +1,710 @@
+.kids-catalogue {
+  min-height: 100vh;
+  overflow: clip;
+  background:
+    radial-gradient(ellipse at 82% 16%, rgba(116, 35, 202, 0.18), transparent 28%),
+    var(--home-page-background);
+  color: #fff;
+}
+
+.kids-catalogue-container {
+  width: min(100% - 64px, 1280px);
+  margin: 0 auto;
+}
+
+.kids-catalogue-hero {
+  position: relative;
+  min-height: 480px;
+  overflow: hidden;
+  isolation: isolate;
+  border-bottom: 1px solid rgba(135, 66, 240, 0.38);
+  background:
+    radial-gradient(ellipse at 77% 55%, rgba(100, 34, 187, 0.28), transparent 37%),
+    linear-gradient(112deg, #0b0826 4%, #100a35 58%, #19083d 100%);
+}
+
+.kids-catalogue-hero__content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 480px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 46px 0 52px;
+}
+
+.kids-catalogue-hero__copy {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+  padding-top: 20px;
+}
+
+.kids-back-link {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: #d6c9f3;
+  font-size: 14px;
+  font-weight: 600;
+  transition: color 160ms ease;
+}
+
+.kids-back-link:hover {
+  color: #ffb650;
+}
+
+.kids-back-link span {
+  color: #ff9a32;
+  font-size: 20px;
+}
+
+.kids-catalogue-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 14px;
+  color: #ffb347;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.17em;
+}
+
+.kids-catalogue-eyebrow > span {
+  width: 22px;
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #ff9900, #ff4d5e);
+  box-shadow: 0 0 10px rgba(255, 119, 32, 0.8);
+}
+
+.kids-catalogue-hero h1 {
+  max-width: 680px;
+  margin: 0;
+  font-size: clamp(42px, 5.3vw, 72px);
+  font-weight: 800;
+  letter-spacing: -0.055em;
+  line-height: 1.06;
+}
+
+.kids-catalogue-hero h1 span {
+  color: #b388ff;
+  text-shadow: 0 0 24px rgba(133, 75, 255, 0.45);
+}
+
+.kids-age-badge {
+  display: inline-flex;
+  margin-top: 19px;
+  padding: 7px 14px;
+  border: 1px solid rgba(255, 168, 54, 0.64);
+  border-radius: 30px;
+  background: rgba(255, 145, 22, 0.12);
+  color: #ffc565;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.kids-catalogue-hero__description {
+  max-width: 590px;
+  margin: 18px 0 0;
+  color: #d3cde4;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.kids-catalogue-stats {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0;
+  margin-top: 28px;
+}
+
+.kids-catalogue-stats > div {
+  display: flex;
+  min-height: 45px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 24px;
+  border-right: 1px solid rgba(163, 126, 234, 0.35);
+}
+
+.kids-catalogue-stats > div:first-child {
+  padding-left: 0;
+}
+
+.kids-catalogue-stats > div:last-child {
+  border: 0;
+}
+
+.kids-catalogue-stats strong {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.kids-catalogue-stats > div > span:last-child {
+  margin-top: 2px;
+  color: #c3badb;
+  font-size: 12px;
+}
+
+.kids-catalogue-stats .kids-catalogue-stats__pdf {
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.kids-pdf-mark {
+  display: grid;
+  width: 37px;
+  height: 37px;
+  border: 1px solid rgba(255, 171, 75, 0.56);
+  border-radius: 11px;
+  background: rgba(255, 137, 30, 0.13);
+  color: #ffb04a !important;
+  font-size: 10px !important;
+  font-weight: 800;
+  place-items: center;
+}
+
+.kids-catalogue-hero__mascot {
+  position: relative;
+  display: grid;
+  width: min(31vw, 360px);
+  height: 340px;
+  flex: 0 0 auto;
+  margin: 45px 25px 0 20px;
+  place-items: center;
+}
+
+.kids-catalogue-hero__mascot > span {
+  position: absolute;
+  width: 80%;
+  aspect-ratio: 1;
+  border: 1px solid rgba(159, 100, 255, 0.35);
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(125, 62, 241, 0.16), transparent 69%);
+  box-shadow: 0 0 44px rgba(122, 64, 250, 0.25), inset 0 0 32px rgba(122, 64, 250, 0.14);
+}
+
+.kids-catalogue-hero__mascot img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 13px 27px rgba(0, 0, 0, 0.48));
+}
+
+.kids-catalogue-hero__glow {
+  position: absolute;
+  z-index: -1;
+  top: -40%;
+  right: -9%;
+  width: 52vw;
+  height: 130%;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(112, 52, 224, 0.12), transparent 66%);
+  filter: blur(7px);
+}
+
+.kids-catalogue-wave {
+  position: absolute;
+  right: -5%;
+  bottom: -70px;
+  left: -5%;
+  height: 110px;
+  border-top: 1px solid rgba(158, 70, 255, 0.42);
+  border-radius: 50% 50% 0 0;
+  box-shadow: 0 -7px 28px rgba(117, 51, 246, 0.14);
+  transform: rotate(-1.5deg);
+}
+
+.kids-courses-section {
+  position: relative;
+  padding: 62px 0 86px;
+  background:
+    radial-gradient(ellipse at 48% 0%, rgba(102, 44, 193, 0.11), transparent 42%),
+    var(--home-page-background);
+}
+
+.kids-courses-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.kids-courses-heading .kids-catalogue-eyebrow {
+  margin-bottom: 8px;
+}
+
+.kids-courses-heading h2 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(28px, 3.2vw, 42px);
+  font-weight: 750;
+  letter-spacing: -0.045em;
+}
+
+.kids-courses-heading > p {
+  margin: 0 0 5px;
+  color: #c6bddc;
+  font-size: 14px;
+}
+
+.kids-category-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.kids-category-filters button {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  gap: 9px;
+  padding: 0 14px;
+  border: 1px solid rgba(147, 103, 226, 0.42);
+  border-radius: 24px;
+  background: rgba(34, 20, 72, 0.56);
+  color: #e7e0f6;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 160ms ease, background 160ms ease, color 160ms ease;
+}
+
+.kids-category-filters button:hover,
+.kids-category-filters button.is-active {
+  border-color: #b57aff;
+  background: rgba(111, 58, 194, 0.36);
+  color: #fff;
+  box-shadow: 0 0 16px rgba(134, 74, 236, 0.15);
+}
+
+.kids-category-filters button span {
+  color: #ffbc58;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.kids-course-search {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 25px 0 22px;
+}
+
+.kids-course-search label {
+  display: grid;
+  gap: 8px;
+  color: #c9c1db;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.kids-course-search label:first-child {
+  width: min(100%, 430px);
+}
+
+.kids-course-search input,
+.kids-course-search select {
+  min-height: 46px;
+  padding: 0 14px;
+  border: 1px solid rgba(144, 99, 221, 0.45);
+  border-radius: 11px;
+  background: rgba(18, 12, 48, 0.83);
+  color: #fff;
+  font-size: 14px;
+}
+
+.kids-course-search input::placeholder {
+  color: #9188a7;
+}
+
+.kids-course-search select {
+  min-width: 125px;
+  cursor: pointer;
+}
+
+.kids-course-search option {
+  background: #171033;
+}
+
+.kids-course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 17px;
+}
+
+.kids-course-card {
+  position: relative;
+  display: flex;
+  min-height: 205px;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 21px 20px 17px 25px;
+  border: 1px solid rgba(150, 88, 233, 0.5);
+  border-radius: 15px;
+  background:
+    linear-gradient(145deg, rgba(40, 23, 79, 0.79), rgba(15, 11, 42, 0.88)),
+    rgba(19, 12, 47, 0.88);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.035), 0 7px 20px rgba(3, 1, 15, 0.15);
+  transition: transform 170ms ease, border-color 170ms ease, box-shadow 170ms ease;
+}
+
+.kids-course-card--illustrated {
+  min-height: 220px;
+  padding-right: 40%;
+}
+
+.kids-course-card--illustrated .kids-course-card__body,
+.kids-course-card--illustrated .kids-course-card__actions,
+.kids-course-card--illustrated .kids-course-card__unavailable {
+  position: relative;
+  z-index: 2;
+}
+
+.kids-course-card__illustration {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: 8px;
+  width: 36%;
+  height: 88%;
+  object-fit: contain;
+  object-position: center;
+  filter: drop-shadow(0 0 13px rgba(139, 53, 255, 0.42));
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+.kids-course-card--illustrated-pro-kids .kids-course-card__illustration {
+  filter:
+    drop-shadow(0 0 12px rgba(126, 67, 255, 0.44))
+    drop-shadow(0 0 20px rgba(45, 122, 255, 0.2));
+}
+
+.kids-course-card--illustrated-spark .kids-course-card__illustration {
+  filter:
+    drop-shadow(0 0 12px rgba(139, 53, 255, 0.42))
+    drop-shadow(0 0 20px rgba(255, 191, 55, 0.22));
+}
+
+.kids-course-card--illustrated-pro-spark .kids-course-card__illustration {
+  filter:
+    drop-shadow(0 0 12px rgba(139, 53, 255, 0.42))
+    drop-shadow(0 0 20px rgba(255, 197, 69, 0.2));
+}
+
+.kids-course-card--illustrated-future .kids-course-card__illustration {
+  filter:
+    drop-shadow(0 0 12px rgba(37, 135, 255, 0.38))
+    drop-shadow(0 0 20px rgba(132, 82, 255, 0.24));
+}
+
+.kids-course-card--illustrated-professional .kids-course-card__illustration {
+  filter:
+    drop-shadow(0 0 12px rgba(139, 53, 255, 0.42))
+    drop-shadow(0 0 20px rgba(255, 191, 55, 0.22));
+}
+
+.kids-course-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(184, 124, 255, 0.86);
+  box-shadow: 0 9px 26px rgba(107, 46, 209, 0.17);
+}
+
+.kids-course-card__accent {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 0;
+  width: 3px;
+  border-radius: 0 4px 4px 0;
+  background: linear-gradient(180deg, #ffc247, #ff7b32 66%, #ed4d61);
+  box-shadow: 0 0 12px rgba(255, 146, 44, 0.47);
+}
+
+.kids-course-card__body {
+  flex: 1;
+}
+
+.kids-course-card h3 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(20px, 1.55vw, 22px);
+  font-weight: 750;
+  line-height: 1.32;
+  overflow-wrap: anywhere;
+}
+
+.kids-course-card__age {
+  display: inline-flex;
+  margin-top: 14px;
+  padding: 6px 9px;
+  border: 1px solid rgba(255, 183, 81, 0.34);
+  border-radius: 18px;
+  background: rgba(255, 167, 44, 0.1);
+  color: #ffcf81;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.kids-course-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-top: 18px;
+}
+
+.kids-course-card__actions a {
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 13px;
+  border: 1px solid rgba(171, 114, 255, 0.57);
+  border-radius: 9px;
+  background: rgba(111, 56, 191, 0.3);
+  color: #f4edff;
+  font-size: 11px;
+  font-weight: 700;
+  transition: background 160ms ease, border-color 160ms ease;
+}
+
+.kids-course-card__actions a:hover {
+  border-color: #c39aff;
+  background: rgba(135, 74, 222, 0.54);
+}
+
+.kids-course-card__actions a:last-child {
+  border-color: rgba(255, 147, 69, 0.48);
+  background: rgba(255, 120, 40, 0.12);
+}
+
+.kids-course-card__actions a:last-child:hover {
+  background: rgba(255, 120, 40, 0.24);
+}
+
+.kids-course-card--illustrated .kids-course-card__actions a {
+  padding-right: 8px;
+  padding-left: 8px;
+  font-size: 10px;
+}
+
+.kids-course-card__unavailable {
+  margin: 18px 0 0;
+  color: #ffbd80;
+  font-size: 12px;
+}
+
+.kids-courses-empty {
+  margin: 32px 0;
+  padding: 30px;
+  border: 1px solid rgba(147, 103, 226, 0.4);
+  border-radius: 14px;
+  color: #d3cbe3;
+  text-align: center;
+}
+
+.kids-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 34px;
+}
+
+.kids-pagination button {
+  min-width: 38px;
+  min-height: 38px;
+  padding: 0 11px;
+  border: 1px solid rgba(147, 103, 226, 0.42);
+  border-radius: 9px;
+  background: rgba(34, 20, 72, 0.56);
+  color: #e9e2f5;
+  font-size: 12px;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.kids-pagination button:hover:not(:disabled),
+.kids-pagination button.is-active {
+  border-color: #ba81ff;
+  background: rgba(111, 58, 194, 0.46);
+  color: #fff;
+}
+
+.kids-pagination button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+@media (max-width: 900px) {
+  .kids-catalogue-hero,
+  .kids-catalogue-hero__content {
+    min-height: 430px;
+  }
+
+  .kids-catalogue-hero__content {
+    padding-top: 58px;
+  }
+
+  .kids-catalogue-hero__mascot {
+    width: 30vw;
+    height: 280px;
+    margin-right: 0;
+  }
+
+  .kids-course-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .kids-catalogue-container {
+    width: min(100% - 36px, 1280px);
+  }
+
+  .kids-catalogue-hero,
+  .kids-catalogue-hero__content {
+    min-height: auto;
+  }
+
+  .kids-catalogue-hero__content {
+    display: block;
+    padding: 68px 0 30px;
+  }
+
+  .kids-back-link {
+    top: 21px;
+    font-size: 12px;
+  }
+
+  .kids-catalogue-hero__copy {
+    padding-top: 0;
+  }
+
+  .kids-catalogue-eyebrow {
+    font-size: 10px;
+  }
+
+  .kids-catalogue-hero h1 {
+    max-width: 480px;
+    font-size: clamp(39px, 12vw, 57px);
+  }
+
+  .kids-catalogue-hero__description {
+    font-size: 14px;
+  }
+
+  .kids-catalogue-stats {
+    gap: 16px 0;
+    margin-top: 22px;
+  }
+
+  .kids-catalogue-stats > div {
+    padding: 0 13px;
+  }
+
+  .kids-catalogue-stats strong {
+    font-size: 18px;
+  }
+
+  .kids-catalogue-stats__pdf > span:last-child {
+    max-width: 85px;
+    line-height: 1.35;
+  }
+
+  .kids-catalogue-hero__mascot {
+    position: absolute;
+    right: -31px;
+    bottom: -59px;
+    width: 126px;
+    height: 138px;
+    margin: 0;
+    opacity: 0.65;
+  }
+
+  .kids-catalogue-hero__mascot > span {
+    width: 90%;
+  }
+
+  .kids-catalogue-wave {
+    bottom: -78px;
+  }
+
+  .kids-courses-section {
+    padding: 42px 0 62px;
+  }
+
+  .kids-courses-heading {
+    display: block;
+    margin-bottom: 21px;
+  }
+
+  .kids-courses-heading > p {
+    margin-top: 8px;
+  }
+
+  .kids-category-filters {
+    flex-wrap: nowrap;
+    margin-right: -18px;
+    padding: 2px 18px 8px 0;
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+
+  .kids-category-filters button {
+    flex: 0 0 auto;
+  }
+
+  .kids-course-search {
+    align-items: stretch;
+    flex-direction: column;
+    margin: 17px 0;
+  }
+
+  .kids-course-search label:first-child {
+    width: 100%;
+  }
+
+  .kids-course-search select {
+    width: 100%;
+  }
+
+  .kids-course-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .kids-course-card {
+    min-height: 190px;
+  }
+
+  .kids-course-card--illustrated {
+    min-height: 230px;
+    padding-right: 40%;
+  }
+
+  .kids-course-card__illustration {
+    right: 7px;
+    width: 36%;
+    height: 85%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kids-course-card,
+  .kids-category-filters button,
+  .kids-course-card__actions a {
+    transition: none;
+  }
+}

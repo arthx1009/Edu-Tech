@@ -1,4 +1,5 @@
 import type { Pathway } from "../data/pathways";
+import { brochureRoutes } from "../data/brochureRoutes";
 import PathwayIcon from "./PathwayIcon";
 import kyro from "../assets/images/prof-kyro-learning.png";
 
@@ -70,7 +71,7 @@ export default function PathwayFinder({
         <p className="recommended-pathway__description">{selectedPathway.description}</p>
         <a
           className="recommended-pathway__button"
-          href={`#pathway-${selectedPathway.id}`}
+          href={brochureRoutes[selectedPathway.id] ?? `#pathway-${selectedPathway.id}`}
           onClick={() => onSelect(selectedPathway.id)}
         >
           Start Here <span aria-hidden="true">→</span>

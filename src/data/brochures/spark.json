@@ -1,0 +1,538 @@
+[
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Anesthesiology - Spark.pdf",
+    "title": "Anesthesiology - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Anesthesiology - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Anesthesiology%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Cardiology - Spark.pdf",
+    "title": "Cardiology - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Cardiology - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Cardiology%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Dermatology - Spark.pdf",
+    "title": "Dermatology - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Dermatology - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Dermatology%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Emergency Medicine - Spark.pdf",
+    "title": "Emergency Medicine - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Emergency Medicine - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Emergency%20Medicine%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/ENT - Spark.pdf",
+    "title": "ENT - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "ENT - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/ENT%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Gastroenterology - Spark.pdf",
+    "title": "Gastroenterology - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Gastroenterology - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Gastroenterology%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/General Surgery - Spark.pdf",
+    "title": "General Surgery - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "General Surgery - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/General%20Surgery%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Gynaecology - Spark.pdf",
+    "title": "Gynaecology - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Gynaecology - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Gynaecology%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Nephrology - Spark.pdf",
+    "title": "Nephrology - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Nephrology - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Nephrology%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Neurology - Spark.pdf",
+    "title": "Neurology - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Neurology - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Neurology%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Oncology - Spark.pdf",
+    "title": "Oncology - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Oncology - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Oncology%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Ophthalmology - Spark.pdf",
+    "title": "Ophthalmology - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Ophthalmology - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Ophthalmology%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Orthopaedics - Spark.pdf",
+    "title": "Orthopaedics - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Orthopaedics - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Orthopaedics%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Paediatrics - Spark.pdf",
+    "title": "Paediatrics - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Paediatrics - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Paediatrics%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Pathology - Spark.pdf",
+    "title": "Pathology - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Pathology - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Pathology%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Physiotherapy & Rehabilitation - Spark.pdf",
+    "title": "Physiotherapy & Rehabilitation - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Physiotherapy & Rehabilitation - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Physiotherapy%20%26%20Rehabilitation%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Pulmonology - Spark.pdf",
+    "title": "Pulmonology - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Pulmonology - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Pulmonology%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "AI, Health Care & Medical Sciences/Radiology - Spark.pdf",
+    "title": "Radiology - Spark",
+    "category": "AI, Health Care & Medical Sciences",
+    "filename": "Radiology - Spark.pdf",
+    "url": "/assets/Brochures/spark/AI%2C%20Health%20Care%20%26%20Medical%20Sciences/Radiology%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Career - Business/Business Development - Spark.pdf",
+    "title": "Business Development - Spark",
+    "category": "Career - Business",
+    "filename": "Business Development - Spark.pdf",
+    "url": "/assets/Brochures/spark/Career%20-%20Business/Business%20Development%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Career - Business/Business Strategy - Spark.pdf",
+    "title": "Business Strategy - Spark",
+    "category": "Career - Business",
+    "filename": "Business Strategy - Spark.pdf",
+    "url": "/assets/Brochures/spark/Career%20-%20Business/Business%20Strategy%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Career - Business/Entrepreneurship - Spark.pdf",
+    "title": "Entrepreneurship - Spark",
+    "category": "Career - Business",
+    "filename": "Entrepreneurship - Spark.pdf",
+    "url": "/assets/Brochures/spark/Career%20-%20Business/Entrepreneurship%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Career - Business/Leadership - Spark.pdf",
+    "title": "Leadership - Spark",
+    "category": "Career - Business",
+    "filename": "Leadership - Spark.pdf",
+    "url": "/assets/Brochures/spark/Career%20-%20Business/Leadership%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Career - Business/Product Management - Spark.pdf",
+    "title": "Product Management - Spark",
+    "category": "Career - Business",
+    "filename": "Product Management - Spark.pdf",
+    "url": "/assets/Brochures/spark/Career%20-%20Business/Product%20Management%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Career - Business/Professional Skills - Spark.pdf",
+    "title": "Professional Skills - Spark",
+    "category": "Career - Business",
+    "filename": "Professional Skills - Spark.pdf",
+    "url": "/assets/Brochures/spark/Career%20-%20Business/Professional%20Skills%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "chess/Chess - Spark.pdf",
+    "title": "Chess - Spark",
+    "category": "chess",
+    "filename": "Chess - Spark.pdf",
+    "url": "/assets/Brochures/spark/chess/Chess%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Engineering/Aerospace - Spark.pdf",
+    "title": "Aerospace - Spark",
+    "category": "Engineering",
+    "filename": "Aerospace - Spark.pdf",
+    "url": "/assets/Brochures/spark/Engineering/Aerospace%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Engineering/Automotive - Spark.pdf",
+    "title": "Automotive - Spark",
+    "category": "Engineering",
+    "filename": "Automotive - Spark.pdf",
+    "url": "/assets/Brochures/spark/Engineering/Automotive%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Engineering/Battery & Energy Storage - Spark.pdf",
+    "title": "Battery & Energy Storage - Spark",
+    "category": "Engineering",
+    "filename": "Battery & Energy Storage - Spark.pdf",
+    "url": "/assets/Brochures/spark/Engineering/Battery%20%26%20Energy%20Storage%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Engineering/Camera & Imaging - Spark.pdf",
+    "title": "Camera & Imaging - Spark",
+    "category": "Engineering",
+    "filename": "Camera & Imaging - Spark.pdf",
+    "url": "/assets/Brochures/spark/Engineering/Camera%20%26%20Imaging%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Engineering/Embedded Systems - IoT - Spark.pdf",
+    "title": "Embedded Systems - IoT - Spark",
+    "category": "Engineering",
+    "filename": "Embedded Systems - IoT - Spark.pdf",
+    "url": "/assets/Brochures/spark/Engineering/Embedded%20Systems%20-%20IoT%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Engineering/EV & Electric Mobility - Spark.pdf",
+    "title": "EV & Electric Mobility - Spark",
+    "category": "Engineering",
+    "filename": "EV & Electric Mobility - Spark.pdf",
+    "url": "/assets/Brochures/spark/Engineering/EV%20%26%20Electric%20Mobility%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Engineering/Industrial Automation - Spark.pdf",
+    "title": "Industrial Automation - Spark",
+    "category": "Engineering",
+    "filename": "Industrial Automation - Spark.pdf",
+    "url": "/assets/Brochures/spark/Engineering/Industrial%20Automation%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Engineering/Manufacturing & Industry 4.0 - Spark.pdf",
+    "title": "Manufacturing & Industry 4.0 - Spark",
+    "category": "Engineering",
+    "filename": "Manufacturing & Industry 4.0 - Spark.pdf",
+    "url": "/assets/Brochures/spark/Engineering/Manufacturing%20%26%20Industry%204.0%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Engineering/Mechatronics - Spark.pdf",
+    "title": "Mechatronics - Spark",
+    "category": "Engineering",
+    "filename": "Mechatronics - Spark.pdf",
+    "url": "/assets/Brochures/spark/Engineering/Mechatronics%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Engineering/Rail & Transportation - Spark.pdf",
+    "title": "Rail & Transportation - Spark",
+    "category": "Engineering",
+    "filename": "Rail & Transportation - Spark.pdf",
+    "url": "/assets/Brochures/spark/Engineering/Rail%20%26%20Transportation%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Engineering/Renewable Energy - Spark.pdf",
+    "title": "Renewable Energy - Spark",
+    "category": "Engineering",
+    "filename": "Renewable Energy - Spark.pdf",
+    "url": "/assets/Brochures/spark/Engineering/Renewable%20Energy%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Engineering/Rockets - Spark.pdf",
+    "title": "Rockets - Spark",
+    "category": "Engineering",
+    "filename": "Rockets - Spark.pdf",
+    "url": "/assets/Brochures/spark/Engineering/Rockets%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Engineering/Semiconductors - Spark.pdf",
+    "title": "Semiconductors - Spark",
+    "category": "Engineering",
+    "filename": "Semiconductors - Spark.pdf",
+    "url": "/assets/Brochures/spark/Engineering/Semiconductors%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Engineering/Space - Spark.pdf",
+    "title": "Space - Spark",
+    "category": "Engineering",
+    "filename": "Space - Spark.pdf",
+    "url": "/assets/Brochures/spark/Engineering/Space%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Engineering/Telecommunications - Spark.pdf",
+    "title": "Telecommunications - Spark",
+    "category": "Engineering",
+    "filename": "Telecommunications - Spark.pdf",
+    "url": "/assets/Brochures/spark/Engineering/Telecommunications%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/AI - Machine Learning - Spark.pdf",
+    "title": "AI - Machine Learning - Spark",
+    "category": "Tech",
+    "filename": "AI - Machine Learning - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/AI%20-%20Machine%20Learning%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/AI Agent & Automation - Spark.pdf",
+    "title": "AI Agent & Automation - Spark",
+    "category": "Tech",
+    "filename": "AI Agent & Automation - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/AI%20Agent%20%26%20Automation%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/AI Product Engineer - Spark.pdf",
+    "title": "AI Product Engineer - Spark",
+    "category": "Tech",
+    "filename": "AI Product Engineer - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/AI%20Product%20Engineer%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/Blockchain - Web3 - Spark.pdf",
+    "title": "Blockchain - Web3 - Spark",
+    "category": "Tech",
+    "filename": "Blockchain - Web3 - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/Blockchain%20-%20Web3%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/Cloud Computing - Spark.pdf",
+    "title": "Cloud Computing - Spark",
+    "category": "Tech",
+    "filename": "Cloud Computing - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/Cloud%20Computing%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/Cyber Security - Spark.pdf",
+    "title": "Cyber Security - Spark",
+    "category": "Tech",
+    "filename": "Cyber Security - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/Cyber%20Security%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/Data Analyst - Spark.pdf",
+    "title": "Data Analyst - Spark",
+    "category": "Tech",
+    "filename": "Data Analyst - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/Data%20Analyst%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/Data Engineering - Spark.pdf",
+    "title": "Data Engineering - Spark",
+    "category": "Tech",
+    "filename": "Data Engineering - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/Data%20Engineering%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/Data Science - Spark.pdf",
+    "title": "Data Science - Spark",
+    "category": "Tech",
+    "filename": "Data Science - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/Data%20Science%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/DevOps - Spark.pdf",
+    "title": "DevOps - Spark",
+    "category": "Tech",
+    "filename": "DevOps - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/DevOps%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/Edge Computing - Spark.pdf",
+    "title": "Edge Computing - Spark",
+    "category": "Tech",
+    "filename": "Edge Computing - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/Edge%20Computing%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/Full Stack Development - Spark.pdf",
+    "title": "Full Stack Development - Spark",
+    "category": "Tech",
+    "filename": "Full Stack Development - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/Full%20Stack%20Development%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/Game Development - Spark.pdf",
+    "title": "Game Development - Spark",
+    "category": "Tech",
+    "filename": "Game Development - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/Game%20Development%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/Generative AI - Spark.pdf",
+    "title": "Generative AI - Spark",
+    "category": "Tech",
+    "filename": "Generative AI - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/Generative%20AI%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/ML Ops & LLM - Spark.pdf",
+    "title": "ML Ops & LLM - Spark",
+    "category": "Tech",
+    "filename": "ML Ops & LLM - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/ML%20Ops%20%26%20LLM%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/Mobile App Development - Spark.pdf",
+    "title": "Mobile App Development - Spark",
+    "category": "Tech",
+    "filename": "Mobile App Development - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/Mobile%20App%20Development%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/Python - Spark.pdf",
+    "title": "Python - Spark",
+    "category": "Tech",
+    "filename": "Python - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/Python%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/Python Full Stack - Spark.pdf",
+    "title": "Python Full Stack - Spark",
+    "category": "Tech",
+    "filename": "Python Full Stack - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/Python%20Full%20Stack%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/Quantum Computing - Spark.pdf",
+    "title": "Quantum Computing - Spark",
+    "category": "Tech",
+    "filename": "Quantum Computing - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/Quantum%20Computing%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/Robotics - Spark.pdf",
+    "title": "Robotics - Spark",
+    "category": "Tech",
+    "filename": "Robotics - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/Robotics%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Tech/UI - UX Developer - Spark.pdf",
+    "title": "UI - UX Developer - Spark",
+    "category": "Tech",
+    "filename": "UI - UX Developer - Spark.pdf",
+    "url": "/assets/Brochures/spark/Tech/UI%20-%20UX%20Developer%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Young Minds & Future Skills/AI & Technology - Spark.pdf",
+    "title": "AI & Technology - Spark",
+    "category": "Young Minds & Future Skills",
+    "filename": "AI & Technology - Spark.pdf",
+    "url": "/assets/Brochures/spark/Young%20Minds%20%26%20Future%20Skills/AI%20%26%20Technology%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Young Minds & Future Skills/Automotive Future Skills - Spark.pdf",
+    "title": "Automotive Future Skills - Spark",
+    "category": "Young Minds & Future Skills",
+    "filename": "Automotive Future Skills - Spark.pdf",
+    "url": "/assets/Brochures/spark/Young%20Minds%20%26%20Future%20Skills/Automotive%20Future%20Skills%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Young Minds & Future Skills/Creative Technology - Spark.pdf",
+    "title": "Creative Technology - Spark",
+    "category": "Young Minds & Future Skills",
+    "filename": "Creative Technology - Spark.pdf",
+    "url": "/assets/Brochures/spark/Young%20Minds%20%26%20Future%20Skills/Creative%20Technology%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Young Minds & Future Skills/Engineering - Spark.pdf",
+    "title": "Engineering - Spark",
+    "category": "Young Minds & Future Skills",
+    "filename": "Engineering - Spark.pdf",
+    "url": "/assets/Brochures/spark/Young%20Minds%20%26%20Future%20Skills/Engineering%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Young Minds & Future Skills/Health Care - Spark.pdf",
+    "title": "Health Care - Spark",
+    "category": "Young Minds & Future Skills",
+    "filename": "Health Care - Spark.pdf",
+    "url": "/assets/Brochures/spark/Young%20Minds%20%26%20Future%20Skills/Health%20Care%20-%20Spark.pdf",
+    "available": true
+  },
+  {
+    "sourcePath": "Young Minds & Future Skills/Space Future Skills - Spark.pdf",
+    "title": "Space Future Skills - Spark",
+    "category": "Young Minds & Future Skills",
+    "filename": "Space Future Skills - Spark.pdf",
+    "url": "/assets/Brochures/spark/Young%20Minds%20%26%20Future%20Skills/Space%20Future%20Skills%20-%20Spark.pdf",
+    "available": true
+  }
+]

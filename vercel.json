@@ -1,0 +1,52 @@
+{
+  "rewrites": [
+    {
+      "source": "/brochures/kids",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/brochures/kids/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/brochures/pro-kids",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/brochures/pro-kids/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/brochures/spark",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/brochures/spark/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/brochures/pro-spark",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/brochures/pro-spark/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/brochures/future",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/brochures/future/",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/brochures/professional",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/brochures/professional/",
+      "destination": "/index.html"
+    }
+  ]
+}

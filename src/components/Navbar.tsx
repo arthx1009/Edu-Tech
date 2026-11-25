@@ -16,6 +16,7 @@ const searchEntries = [
 ];
 
 export default function Navbar() {
+  const isStandalonePage = window.location.pathname.startsWith("/brochures/");
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -32,6 +33,10 @@ export default function Navbar() {
         `${entry.title} ${entry.detail}`.toLowerCase().includes(normalizedQuery),
       )
     : [];
+
+  function internalHref(hash: string) {
+    return isStandalonePage ? `/${hash}` : hash;
+  }
 
   function scrollToTopImmediately() {
     const root = document.documentElement;
@@ -205,7 +210,7 @@ export default function Navbar() {
   return (
     <header className="site-header">
       <nav className="navbar" aria-label="Main navigation">
-        <a className="brand-group" href="#home" aria-label="Tarvyx Edu-Tech home" onClick={closeNavigation}>
+        <a className="brand-group" href={internalHref("#home")} aria-label="Tarvyx Edu-Tech home" onClick={closeNavigation}>
           <span className="brand-unit brand-unit--tms" aria-label="Tarvyx Mind Systems, a TMS Group">
             <img className="brand-mark brand-mark--tms" src={tmsMark} alt="" />
             <span className="brand-copy brand-copy--tms">
@@ -240,42 +245,42 @@ export default function Navbar() {
           <div className="navbar__links">
             <a
               className={`nav-link${pathwaysActive || aboutActive || experienceActive || domainsActive || enquiryActive || faqActive ? "" : " nav-link--active"}`}
-              href="#home"
+              href={internalHref("#home")}
               onClick={closeNavigation}
             >
               Home
             </a>
             <a
               className={`nav-link${aboutActive && !experienceActive && !domainsActive && !enquiryActive && !faqActive ? " nav-link--active nav-link--about-active" : ""}`}
-              href="#about-section"
+              href={internalHref("#about-section")}
               onClick={closeNavigation}
             >
               About
             </a>
             <a
               className={`nav-link${experienceActive && !domainsActive && !enquiryActive && !faqActive ? " nav-link--active nav-link--experience-active" : ""}`}
-              href="#experience-section"
+              href={internalHref("#experience-section")}
               onClick={closeNavigation}
             >
               Experience
             </a>
             <a
               className={`nav-link${pathwaysActive && !aboutActive && !experienceActive && !domainsActive && !enquiryActive && !faqActive ? " nav-link--active" : ""}`}
-              href="#learning-pathways-section"
+              href={internalHref("#learning-pathways-section")}
               onClick={closeNavigation}
             >
               Learning Pathways
             </a>
             <a
               className={`nav-link${domainsActive && !enquiryActive && !faqActive ? " nav-link--active nav-link--domains-active" : ""}`}
-              href="#explore-domains-section"
+              href={internalHref("#explore-domains-section")}
               onClick={closeNavigation}
             >
               Explore Domains
             </a>
             <a
               className={`nav-link${faqActive ? " nav-link--active nav-link--faq-active" : ""}`}
-              href="#faq-section"
+              href={internalHref("#faq-section")}
               onClick={closeNavigation}
             >
               FAQ
@@ -297,7 +302,7 @@ export default function Navbar() {
             </button>
             <a
               className="enquire-button"
-              href="#enquiry-section"
+              href={internalHref("#enquiry-section")}
               onClick={closeNavigation}
             >
               Enquire Now <span aria-hidden="true">→</span>
@@ -326,7 +331,7 @@ export default function Navbar() {
               <div className="search-results" aria-live="polite">
                 {results.length > 0 ? (
                   results.map((result) => (
-                    <a href={result.href} key={result.title} onClick={closeNavigation}>
+                    <a href={internalHref(result.href)} key={result.title} onClick={closeNavigation}>
                       <strong>{result.title}</strong>
                       <span>{result.detail}</span>
                     </a>
